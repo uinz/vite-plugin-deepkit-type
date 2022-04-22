@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.0-beta.0",
   "name": "vite-plugin-deepkit-type",
   "description": "vite plugin, deepkit, runtime type, typescript transformer",
   "license": "MIT",
