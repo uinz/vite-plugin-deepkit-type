@@ -4,7 +4,10 @@
     "module": "CommonJS",
     "target": "ES5",
     "declaration": true,
-    "strict": true
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
   },
-  "include": ["src"]
+  "include": ["./src"]
 }
