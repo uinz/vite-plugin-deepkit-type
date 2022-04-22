@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0",
+  "name": "vite-plugin-deepkit-type",
+  "description": "vite plugin, deepkit, runtime type, typescript transformer",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "author": {
+    "name": "yinz",
+    "email": "uinz.cn@gmail.com"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "devDependencies": {
+    "@deepkit/core": "^1.0.1-alpha.65",
+    "@deepkit/type": "^1.0.1-alpha.71",
+    "@deepkit/type-compiler": "^1.0.1-alpha.71",
+    "@types/node": "^17.0.25",
+    "typescript": "^4.6.3",
+    "vite": "^2.9.5"
+  },
+  "peerDependencies": {
+    "@types/node": "*",
+    "vite": "2",
+    "typescript": "4",
+    "@deepkit/core": "^1",
+    "@deepkit/type": "1",
+    "@deepkit/type-compiler": "1"
+  }
+}
